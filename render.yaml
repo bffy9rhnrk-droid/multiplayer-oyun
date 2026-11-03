@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: sehir-hayati-3d-multiplayer
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /health
